@@ -30,11 +30,4 @@ Select Pay Now
     Identify And Click Element    ${payment_option_now}
     Identify And Click Element    ${payment_method}
     Identify And Click Element    ${payment_option} 
-    
-    
-    
-   
-   
-    
-       
         

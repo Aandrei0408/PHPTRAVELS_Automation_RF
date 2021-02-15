@@ -1,5 +1,4 @@
 *** Settings ***
-Documentation    This page contains keyoword for the booking page
 Resource    ../ObjectRepo/BookingDetailsPageObjects.robot
 Resource    CommonPageKeywords.robot
 
