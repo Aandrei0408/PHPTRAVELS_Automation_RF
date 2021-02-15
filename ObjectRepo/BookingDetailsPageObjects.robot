@@ -1,0 +1,10 @@
+*** Variables ***
+${booking_firstname}    //span[normalize-space()='First Name']
+${booking_lastname}    //span[normalize-space()='Last Name']
+${booking_email}    //span[normalize-space()='Email']
+${booking_email_confirm}    //span[normalize-space()='Confirm']
+${booking_contact_no}    //span[normalize-space()='Contact Number']
+${booking_adress}    //span[normalize-space()='Address']
+${booking_country_select}    //span[normalize-space()='Select Country']
+${option_country}    //option[@value='AR']
+${confirm_booking}    //button[normalize-space()='CONFIRM THIS BOOKING']
