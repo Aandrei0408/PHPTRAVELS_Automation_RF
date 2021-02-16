@@ -7,7 +7,7 @@ Resource    ../ObjectRepo/SearchHotelsPageObjects.robot
 Filter Hotels By Price
     Wait Until Element Is Visible    ${hightolow_filter}    
     Click Element    ${hightolow_filter}
-    #Check If Hotels Are Filtered By Price
+    Check If Hotels Are Filtered By Price
 Check If Hotels Are Filtered By Price
     ${hotels_count}    Get Element Count   ${hotels_available}
     ${hotels_prices}=    Create List    
@@ -22,5 +22,4 @@ Check If Hotels Are Filtered By Price
                              
 Select the n most expensive hotel
     Click Element    ${hotel_selected}
-     
     

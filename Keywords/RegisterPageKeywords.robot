@@ -8,7 +8,7 @@ Fill Form With Valid Credentials
     Input Text    ${firstname}    Ana
     Input Text    ${lastname}    A
     Input Text    ${mobilenumber}    0123425
-    Input Text       ${email}    emai1234795062805@gmail.com
+    Input Text       ${email}    email12@gmail.com
     Input Password    ${password}    password    
     Input Password    ${confirmpassword}    password 
 Check If Message Is Displayed For Invalid Registration

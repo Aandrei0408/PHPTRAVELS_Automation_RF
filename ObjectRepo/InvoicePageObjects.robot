@@ -14,5 +14,3 @@ ${paynowbutton}    //button[@type='submit'][normalize-space()='Pay Now']
 ${invalid_booking}    The merchant login ID or password is invalid or the account is inactive.
 ${bookingconfirmation}   Your booking status is Reserved
 ${payonarrival}    //button[@data-module='hotels']
-
-  

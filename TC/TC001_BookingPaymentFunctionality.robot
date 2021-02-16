@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    End to End TestCases to verify payment functionality 
+Documentation    End to end test to verify payment functionality 
 Library    SeleniumLibrary
 
 Resource    ../Keywords/CommonPageKeywords.robot
@@ -38,9 +38,4 @@ User should be able to book hotel
     Enter Payment Details
     Confirm Payment
     Check If Booking Is Confirmed After Payment
-    
-      
-    
-    
-    
-    
+        
