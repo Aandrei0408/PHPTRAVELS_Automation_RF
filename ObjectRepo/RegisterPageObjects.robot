@@ -9,4 +9,4 @@ ${email}    //input[@name='email']
 ${password}    //input[@name='password']
 ${confirmpassword}    //input[@name='confirmpassword']
 ${signup_button}    //button[contains(text(),'Sign Up')]
-${email_not_valid_message}    The Email field is required.
+

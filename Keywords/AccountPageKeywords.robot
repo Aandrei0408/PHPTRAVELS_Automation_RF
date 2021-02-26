@@ -1,6 +1,8 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource    ../ObjectRepo/AccountPageObjects.robot
+Resource    ../TestData/AccountTestData.robot
+
 *** Keywords ***
 Check If User Is Registerd
     Wait Until Page Contains   ${valid_register_message}

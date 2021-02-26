@@ -2,6 +2,7 @@
 Documentation    End to end test to verify payment functionality 
 Library    SeleniumLibrary
 
+Resource    ../Settings/Common.robot
 Resource    ../Keywords/CommonPageKeywords.robot
 Resource    ../Keywords/HomePageKeywords.robot
 Resource    ../Keywords/RegisterPageKeywords.robot
@@ -16,8 +17,7 @@ Suite TearDown    End Test
 
 *** Test Cases ***
 User should be able to book hotel
-    [Documentation]    Newly registered user generate invoice and make payment after registering to website and and selecting destination preffered
-    Set Log Level    DEBUG
+    [Documentation]    Newly registered user  should be able to generate invoice and make payment after registering to website and selecting destination preffered
     Go To SignUp Page
     Fill Form With Valid Credentials
     Submit Registration Form
